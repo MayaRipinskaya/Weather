@@ -1,0 +1,145 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrap {
+    width: 20%;
+    margin: 5% auto;
+}
+
+.today {
+    background-color: rgb(113, 184, 113);
+    color: white;
+}
+
+.location {
+    padding: 2%;
+}
+
+.weather {
+    padding: 15% 35%;
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+}
+
+.wind {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 5%;
+}
+
+.future {
+    width: 100%;
+}
+
+.day {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 1px gray solid;
+    line-height: 60px;
+    height: 60px;
+}
+
+.direction,
+.speed {
+    display: flex;
+    flex-direction: row;
+}
+
+.speed img {
+    width: 2rem;
+    height: 1rem;
+}
